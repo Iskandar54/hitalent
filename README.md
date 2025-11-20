@@ -15,5 +15,6 @@
 ## Запуск проекта через Docker
 1. Клонируем репозиторий:
 ```bash
-git clone < https://github.com/Iskandar54/>
+git clone < https://github.com/Iskandar54/hitalent.git>
 cd qna_fastapi
+
