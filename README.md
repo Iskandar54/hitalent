@@ -16,12 +16,13 @@
 
 ## Запуск проекта через Docker
 1. Клонируем репозиторий:
-git clone < https://github.com/Iskandar54/hitalent.git >
-cd hitalent
+   git clone < https://github.com/Iskandar54/hitalent.git >
+   cd hitalent
 
-2. Запускаем Docker-контейнеры:
-docker-compose up --build
+3. Запускаем Docker-контейнеры:
+   docker-compose up --build
 
-3. API будет доступен по адресу:
-http://localhost:8000
+5. API будет доступен по адресу:
+   http://localhost:8000
+
 
