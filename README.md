@@ -22,10 +22,13 @@
    cd hitalent
 
 3. Запускаем Docker-контейнеры:
+
    docker-compose up --build
 
 5. API будет доступен по адресу:
+
    http://localhost:8000
+
 
 
 
