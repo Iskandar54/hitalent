@@ -25,9 +25,14 @@
 
    docker-compose up --build
 
+4. Применить миграции: 
+
+   docker-compose exec web alembic upgrade head.
+
 5. API будет доступен по адресу:
 
    http://localhost:8000
+
 
 
 
