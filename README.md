@@ -19,9 +19,8 @@
 git clone < https://github.com/Iskandar54/hitalent.git >
 cd hitalent_fastapi
 
-3. Запускаем Docker-контейнеры:
+2. Запускаем Docker-контейнеры:
 docker-compose up --build
 
-4. API будет доступен по адресу:
+3. API будет доступен по адресу:
 http://localhost:8000
-
