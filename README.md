@@ -1,3 +1,5 @@
+# Hitalent
+
 ## Описание проекта
 Простой API-сервис для вопросов и ответов:
 - Создание, получение и удаление вопросов
@@ -9,13 +11,16 @@
 - PostgreSQL
 - SQLAlchemy (ORM)
 - Pydantic (валидация)
-- Alembic (миграции)
 - Docker + docker-compose
+- Pytest (для тестирования)
 
 ## Запуск проекта через Docker
 1. Клонируем репозиторий:
-```bash
 git clone < https://github.com/Iskandar54/hitalent.git >
-cd qna_fastapi
+cd hitalent_fastapi
 
+2. Запускаем Docker-контейнеры:
+docker-compose up --build
 
+3. API будет доступен по адресу:
+http://localhost:8000
